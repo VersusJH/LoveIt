@@ -2,3 +2,20 @@
 // Custom style
 // 自定义样式
 // ==============================
+
+// Border radius on code fences
+[theme="dark"] .single .content code {
+	border-radius: 7px;
+}
+
+[theme="dark"] .header-title a, .single-title a{
+	color: $single-link-color-dark !important;
+}
+
+.post-meta .post-author {
+	display: none !important;
+}
+
+[theme="dark"] .home[data-home="posts"] .summary .content {
+	color: $global-font-color-dark;
+}
