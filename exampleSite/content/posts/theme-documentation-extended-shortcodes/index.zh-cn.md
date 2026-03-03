@@ -205,7 +205,7 @@ This is a **right-aligned** paragraph.
 
 *支持 Markdown 或者 HTML 格式.*
 
-{{< admonition >}}
+{{< admonition note >}}
 一个 **注意** 横幅
 {{< /admonition >}}
 
@@ -244,7 +244,7 @@ This is a **right-aligned** paragraph.
 {{< /admonition >}}
 
 {{< admonition warning >}}
-**别名**: `caution`, `attention`
+**别名**: `warn`, `caution`, `attention`
 
 一个 **警告** 横幅
 {{< /admonition >}}

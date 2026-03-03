@@ -205,7 +205,7 @@ The `admonition` shortcode supports **13** types of admonition banners to help y
 
 *Markdown or HTML format in the content is supported.*
 
-{{< admonition >}}
+{{< admonition note >}}
 A **note** banner
 {{< /admonition >}}
 
@@ -244,7 +244,7 @@ A **question** banner
 {{< /admonition >}}
 
 {{< admonition warning >}}
-**Aliases**: `caution`, `attention`
+**Aliases**: `warn`, `caution`, `attention`
 
 A **warning** banner
 {{< /admonition >}}
