@@ -16,6 +16,17 @@
 	display: none !important;
 }
 
+.single .content img {
+	border-radius: 15px;
+	align: center;
+}
+
+.single .content figcaption {
+	color: $single-link-color-dark !important;
+	font-style:italic;
+	font-weight: bold;
+}
+
 [theme="dark"] .home[data-home="posts"] .summary .content {
 	color: $global-font-color-dark;
 }
